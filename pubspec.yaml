@@ -31,7 +31,8 @@ dependencies:
     sdk: flutter
   hotkey_manager: ^0.1.7
   url_launcher: ^6.1.5
-  riverpod: ^1.0.3
+  flutter_riverpod: ^2.0.0-dev.9
+  xml: ^6.1.0
   # window_size:
   #   git:
   #     url: https://github.com/google/flutter-desktop-embedding.git

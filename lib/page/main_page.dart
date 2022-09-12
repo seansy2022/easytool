@@ -1,5 +1,6 @@
+import 'package:easytool/compent/home_compent/appinfo_widget.dart';
 import 'package:easytool/compent/home_compent/home_main_select.dart';
-import 'package:easytool/compent/home_compent/home_select_option.dart';
+// import 'package:easytool/compent/home_compent/home_select_option.dart';
 import 'package:flutter/material.dart';
 
 class MainPage extends StatelessWidget {
@@ -10,21 +11,13 @@ class MainPage extends StatelessWidget {
     return Scaffold(
       body: Row(
         children: [
-          // Text("data")
           SizedBox(
-            width: 60,
+            width: 100,
             child: HomeMainSelect(),
-          ),
-          SizedBox(
-            width: 180,
-            child: Container(
-              child: HomeSelectOption(),
-              color: Colors.red[200],
-            ),
           ),
           Expanded(
             child: Container(
-              color: Colors.green[200],
+              child: AppInfo(),
             ),
           ),
         ],
